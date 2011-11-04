@@ -57,8 +57,8 @@ sender_whitelist = ["myemail@example.org"]
 # 0-Disable 1-Enable Subject check
 SUBJECT_CHECK_ENABLED = 1
 # Regular expression to match the subject
-SUBJECT_MATCH = r"^(hello)$"
-# SUBJECT_MATCH = r"^("This should match")$"
+SUBJECT_MATCH = r"^(.*)$"
+# SUBJECT_MATCH = r"^(This should match)$"
 
 # Email check interval in seconds
 EMAIL_CHECK_DELAY = 10
